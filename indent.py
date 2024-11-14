@@ -1,3 +1,9 @@
+#/usr/bin/env python
+
+# A plugin to enable vscode-like indentation hotkeys ctrl-[ and ctrl-]
+# https://github.com/bnfour/zim-plugin-text-indent for more details
+# MIT license
+
 from typing import Callable
 
 from zim.actions import action
