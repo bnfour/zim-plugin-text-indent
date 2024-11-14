@@ -4,10 +4,12 @@ This plugin adds VS Code-like text indentation and outdentation with `Ctrl-]` an
 ![desktop compositon is overrated anyway](readme-images/demo.gif)
 
 ## Installation
-The plugin itself is distributed as a single Python file.
+The plugin itself is distributed as a single script.
 
 ### Requirements
-Zim installed. Python 3.12+ for [type aliases](https://docs.python.org/3/library/typing.html#type-aliases). For older versions, you could try to remove all references to `Action` in the code.
+- Zim installed.
+- Python 3.12+ for [type aliases](https://docs.python.org/3/library/typing.html#type-aliases).  
+For older versions, you could try to remove all references to `Action` in the code.
 
 ### The process
 Just drop `indent.py` into your plugins folder, `~/.local/share/zim/plugins` by default. After that, enable it in the plugins menu (Edit → Preferences (Ctrl+,) → Plugins):
