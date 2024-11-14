@@ -1,7 +1,7 @@
 # Zim plugin for indentation
 This plugin adds VS Code-like text indentation and outdentation with `Ctrl-]` and `Ctrl-[` hotkeys respectively (by default).
 
-TODO video demo? 
+![desktop compositon is overrated anyway](readme-images/demo.gif)
 
 ## Installation
 The plugin itself is distributed as a single Python file.
@@ -14,7 +14,7 @@ Just drop `indent.py` into your plugins folder, `~/.local/share/zim/plugins` by 
 
 ![why yes, i like the color orange, how could you tell](readme-images/enable.png)
 
-To uninstall, remove the file from the plugin folder. It can also be disabled without full removal.
+To uninstall, remove the file from the plugin folder. The plugin can also be disabled without removal.
 
 ## Configuration
 The hotkeys can be changed via Key bindings menu (Edit → Preferences (Ctrl+,) → Key bindings) while the plugin is enabled; look for the following actions:
